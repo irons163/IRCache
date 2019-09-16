@@ -1,0 +1,17 @@
+{
+  "name": "IRCache",
+  "version": "1.0.0",
+  "summary": "A powerful cache of iOS.",
+  "description": "A powerful cache of iOS.",
+  "homepage": "https://github.com/irons163/IRCache.git",
+  "license": "MIT",
+  "authors": "irons163",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/irons163/IRCache.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "IRCache/**/*.{h,m}"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - IRCache (1.0.0)
+
+DEPENDENCIES:
+  - IRCache (from `../IRCache/`)
+
+EXTERNAL SOURCES:
+  IRCache:
+    :path: "../IRCache/"
+
+SPEC CHECKSUMS:
+  IRCache: 046a8fd5925dec0806d56bacd53d93820451a082
+
+PODFILE CHECKSUM: 85580db74400834d68be094249ba0e1e7aa5cfc7
+
+COCOAPODS: 1.8.0.beta.2
