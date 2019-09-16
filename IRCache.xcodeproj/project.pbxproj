@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8A2EF703232F1CF6007CC7ED /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2EF701232F1CD1007CC7ED /* CocoaHTTPServer.framework */; };
+		8A2EF707232F2096007CC7ED /* IRHCHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EF705232F2096007CC7ED /* IRHCHTTPServer.h */; };
+		8A2EF708232F2096007CC7ED /* IRHCHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF706232F2096007CC7ED /* IRHCHTTPServer.m */; };
+		8A2EF70B232F20AE007CC7ED /* IRHCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EF709232F20AE007CC7ED /* IRHCManager.h */; };
+		8A2EF70C232F20AE007CC7ED /* IRHCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF70A232F20AE007CC7ED /* IRHCManager.m */; };
+		8A2EF70F232F20D8007CC7ED /* IRHCDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EF70D232F20D8007CC7ED /* IRHCDataRequest.h */; };
+		8A2EF710232F20D8007CC7ED /* IRHCDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF70E232F20D8007CC7ED /* IRHCDataRequest.m */; };
+		8A2EF713232F20F3007CC7ED /* IRHCHTTPURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EF711232F20F2007CC7ED /* IRHCHTTPURL.h */; };
+		8A2EF714232F20F3007CC7ED /* IRHCHTTPURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF712232F20F3007CC7ED /* IRHCHTTPURL.m */; };
+		8A2EF71A232F214E007CC7ED /* IRHCURLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EF718232F214E007CC7ED /* IRHCURLTools.h */; };
+		8A2EF71B232F214E007CC7ED /* IRHCURLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF719232F214E007CC7ED /* IRHCURLTools.m */; };
+		8A2EF71E232F216B007CC7ED /* IRHCHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EF71C232F216B007CC7ED /* IRHCHTTPConnection.h */; };
+		8A2EF71F232F216B007CC7ED /* IRHCHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF71D232F216B007CC7ED /* IRHCHTTPConnection.m */; };
+		8A2EF722232F2177007CC7ED /* IRHCHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EF720232F2177007CC7ED /* IRHCHTTPRequest.h */; };
+		8A2EF723232F2177007CC7ED /* IRHCHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF721232F2177007CC7ED /* IRHCHTTPRequest.m */; };
+		8A2EF726232F218B007CC7ED /* IRHCHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EF724232F218B007CC7ED /* IRHCHTTPResponse.h */; };
+		8A2EF727232F218B007CC7ED /* IRHCHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF725232F218B007CC7ED /* IRHCHTTPResponse.m */; };
 		8A48E2FA2329E046009DAC3F /* IRCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A48E2F82329E046009DAC3F /* IRCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -23,6 +39,22 @@
 
 /* Begin PBXFileReference section */
 		8A2EF6FC232F1CD1007CC7ED /* CocoaHTTPServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaHTTPServer.xcodeproj; path = Vendors/CocoaHTTPServer/CocoaHTTPServer.xcodeproj; sourceTree = "<group>"; };
+		8A2EF705232F2096007CC7ED /* IRHCHTTPServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPServer.h; sourceTree = "<group>"; };
+		8A2EF706232F2096007CC7ED /* IRHCHTTPServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCHTTPServer.m; sourceTree = "<group>"; };
+		8A2EF709232F20AE007CC7ED /* IRHCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCManager.h; sourceTree = "<group>"; };
+		8A2EF70A232F20AE007CC7ED /* IRHCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCManager.m; sourceTree = "<group>"; };
+		8A2EF70D232F20D8007CC7ED /* IRHCDataRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataRequest.h; sourceTree = "<group>"; };
+		8A2EF70E232F20D8007CC7ED /* IRHCDataRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataRequest.m; sourceTree = "<group>"; };
+		8A2EF711232F20F2007CC7ED /* IRHCHTTPURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPURL.h; sourceTree = "<group>"; };
+		8A2EF712232F20F3007CC7ED /* IRHCHTTPURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCHTTPURL.m; sourceTree = "<group>"; };
+		8A2EF718232F214E007CC7ED /* IRHCURLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCURLTools.h; sourceTree = "<group>"; };
+		8A2EF719232F214E007CC7ED /* IRHCURLTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCURLTools.m; sourceTree = "<group>"; };
+		8A2EF71C232F216B007CC7ED /* IRHCHTTPConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPConnection.h; sourceTree = "<group>"; };
+		8A2EF71D232F216B007CC7ED /* IRHCHTTPConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCHTTPConnection.m; sourceTree = "<group>"; };
+		8A2EF720232F2177007CC7ED /* IRHCHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPRequest.h; sourceTree = "<group>"; };
+		8A2EF721232F2177007CC7ED /* IRHCHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCHTTPRequest.m; sourceTree = "<group>"; };
+		8A2EF724232F218B007CC7ED /* IRHCHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPResponse.h; sourceTree = "<group>"; };
+		8A2EF725232F218B007CC7ED /* IRHCHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCHTTPResponse.m; sourceTree = "<group>"; };
 		8A48E2F52329E046009DAC3F /* IRCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A48E2F82329E046009DAC3F /* IRCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRCache.h; sourceTree = "<group>"; };
 		8A48E2F92329E046009DAC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +85,41 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A2EF715232F20F9007CC7ED /* IRHCTools */ = {
+			isa = PBXGroup;
+			children = (
+				8A2EF718232F214E007CC7ED /* IRHCURLTools.h */,
+				8A2EF719232F214E007CC7ED /* IRHCURLTools.m */,
+			);
+			path = IRHCTools;
+			sourceTree = "<group>";
+		};
+		8A2EF716232F2104007CC7ED /* IRHCDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8A2EF70D232F20D8007CC7ED /* IRHCDataRequest.h */,
+				8A2EF70E232F20D8007CC7ED /* IRHCDataRequest.m */,
+			);
+			path = IRHCDataStorage;
+			sourceTree = "<group>";
+		};
+		8A2EF717232F2111007CC7ED /* IRHCHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				8A2EF705232F2096007CC7ED /* IRHCHTTPServer.h */,
+				8A2EF706232F2096007CC7ED /* IRHCHTTPServer.m */,
+				8A2EF711232F20F2007CC7ED /* IRHCHTTPURL.h */,
+				8A2EF712232F20F3007CC7ED /* IRHCHTTPURL.m */,
+				8A2EF71C232F216B007CC7ED /* IRHCHTTPConnection.h */,
+				8A2EF71D232F216B007CC7ED /* IRHCHTTPConnection.m */,
+				8A2EF720232F2177007CC7ED /* IRHCHTTPRequest.h */,
+				8A2EF721232F2177007CC7ED /* IRHCHTTPRequest.m */,
+				8A2EF724232F218B007CC7ED /* IRHCHTTPResponse.h */,
+				8A2EF725232F218B007CC7ED /* IRHCHTTPResponse.m */,
+			);
+			path = IRHCHTTPServer;
 			sourceTree = "<group>";
 		};
 		8A48E2EB2329E046009DAC3F = {
@@ -86,6 +153,11 @@
 		8A48E3382329EF01009DAC3F /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				8A2EF709232F20AE007CC7ED /* IRHCManager.h */,
+				8A2EF70A232F20AE007CC7ED /* IRHCManager.m */,
+				8A2EF715232F20F9007CC7ED /* IRHCTools */,
+				8A2EF716232F2104007CC7ED /* IRHCDataStorage */,
+				8A2EF717232F2111007CC7ED /* IRHCHTTPServer */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -97,7 +169,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2EF71A232F214E007CC7ED /* IRHCURLTools.h in Headers */,
+				8A2EF70F232F20D8007CC7ED /* IRHCDataRequest.h in Headers */,
 				8A48E2FA2329E046009DAC3F /* IRCache.h in Headers */,
+				8A2EF71E232F216B007CC7ED /* IRHCHTTPConnection.h in Headers */,
+				8A2EF707232F2096007CC7ED /* IRHCHTTPServer.h in Headers */,
+				8A2EF70B232F20AE007CC7ED /* IRHCManager.h in Headers */,
+				8A2EF722232F2177007CC7ED /* IRHCHTTPRequest.h in Headers */,
+				8A2EF726232F218B007CC7ED /* IRHCHTTPResponse.h in Headers */,
+				8A2EF713232F20F3007CC7ED /* IRHCHTTPURL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +264,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2EF708232F2096007CC7ED /* IRHCHTTPServer.m in Sources */,
+				8A2EF723232F2177007CC7ED /* IRHCHTTPRequest.m in Sources */,
+				8A2EF727232F218B007CC7ED /* IRHCHTTPResponse.m in Sources */,
+				8A2EF714232F20F3007CC7ED /* IRHCHTTPURL.m in Sources */,
+				8A2EF71B232F214E007CC7ED /* IRHCURLTools.m in Sources */,
+				8A2EF710232F20D8007CC7ED /* IRHCDataRequest.m in Sources */,
+				8A2EF70C232F20AE007CC7ED /* IRHCManager.m in Sources */,
+				8A2EF71F232F216B007CC7ED /* IRHCHTTPConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

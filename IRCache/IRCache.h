@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char IRCacheVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <IRCache/PublicHeader.h>
 
-
+#import <IRCache/IRHCManager.h>
